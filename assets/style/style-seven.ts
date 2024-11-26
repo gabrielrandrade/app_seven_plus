@@ -4,39 +4,57 @@ const { width } = Dimensions.get('window');
 
 const styles=StyleSheet.create({
     container:{
+        flex:1,
         justifyContent: 'center',
         alignItems:'center',
-        backgroundColor:'none'
     },
-    image_login:{
+    backgroundImage:{
         flex:1,
-        zIndex:-10,
-        marginTop:10
+        justifyContent:'center',
+        width:'100%',
+        alignItems: 'center',
     },
     logo_login:{
         width: 100,
         height:100,
-        marginTop:225
     },
-    text_login:{
+    containerLogin:{
+        width:300,
+        backgroundColor:'#ffffffa6',
+        marginTop:30,
+        marginLeft:'auto',
+        marginRight:'auto',
+        borderRadius:5
+    },
+    containerInput:{
+        width: '80%',
+        marginLeft:'auto',
+        marginRight:'auto'
+
+    },
+    textLogin:{
         fontSize:25,
         textAlign:'center',
-        marginTop:50,
-        marginBottom:50
+        marginTop:30
     },
     text:{
         fontSize:15,
         textAlign:'left',
-        marginTop:30    
+        marginTop:30,
+        // marginLeft:30   
     },
-    input_login:{
+    inputLogin:{
         borderColor: '#000',
         borderWidth: 1,
         borderRadius: 10,
-        width:250,
-        marginTop: 10
+        width:'100%',
+        marginTop: 10,
+        backgroundColor:'#fff',
+        // marginLeft:'auto',
+        // marginRight:'auto'
     },
-    button_login:{
+    buttonLogin:{
+
         padding: 10,
         alignItems: 'center',
         borderRadius: 5,
@@ -44,7 +62,14 @@ const styles=StyleSheet.create({
         marginBottom: 20,
         marginTop: 30,
         width: 100,
-    }
+        marginLeft: 'auto',
+        marginRight: 'auto',
+        backgroundColor:'#fff',
+
+    },
+    
+
+
 
 
     
