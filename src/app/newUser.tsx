@@ -1,16 +1,17 @@
 import React, {Component} from 'react';
 import { StyleSheet,Text, TextInput, Image, View, SafeAreaView, TouchableOpacity,ImageBackground } from 'react-native';
-import styles from './assets/style/style-seven';
+import styles from '../../assets/style/style-seven';
+import { Link } from 'expo-router';
 
 
-class App extends Component{
+class NewUser extends Component{
   render(){
     return(
       <SafeAreaView style={styles.container}>
-        <ImageBackground source={require('./assets/image/fundo.jpg')} style={styles.backgroundImage} resizeMode="cover">
+        <ImageBackground source={require('../../assets/image/fundo.jpg')} style={styles.backgroundImage} resizeMode="cover">
             <View>
               <Image 
-              source={require('./assets/image/logo.png')} style={styles.logo_login}
+              source={require('../../assets/image/logo.png')} style={styles.logo_login}
               />
             </View>
           <View style={styles.containerLogin}>
@@ -34,9 +35,11 @@ class App extends Component{
               </View> 
             </View>
             <View>
+            <Link href={"/index"} asChild>
                 <TouchableOpacity style={styles.buttonLogin}>
                   <Text>Entrar</Text>
                 </TouchableOpacity>
+              </Link>
             </View>
           </View>
         </ImageBackground> 
@@ -46,4 +49,4 @@ class App extends Component{
 
 }
 
-export default App;
+export default NewUser;

@@ -6,6 +6,7 @@
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
+    "scheme": "app_seven_plus",
     "newArchEnabled": true,
     "splash": {
       "image": "./assets/splash-icon.png",
@@ -39,6 +40,9 @@
         "wasm",
         "svg"
       ]
-    }
+    },
+    "plugins": [
+      "expo-router"
+    ]
   }
 }
