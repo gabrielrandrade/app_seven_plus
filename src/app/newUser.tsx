@@ -39,7 +39,7 @@ class NewUser extends Component{
                 <TouchableOpacity style={styles.buttonLogin}>
                   <Text>Entrar</Text>
                 </TouchableOpacity>
-              </Link>
+            </Link>
             </View>
           </View>
         </ImageBackground> 

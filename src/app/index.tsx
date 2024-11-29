@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import { StyleSheet,Text, TextInput, Image, View, SafeAreaView, TouchableOpacity,ImageBackground, Button } from 'react-native';
 import styles from '../../assets/style/style-seven';
 import { Link } from 'expo-router';
-import { NavigationProp } from "@react-navigation/native";
+
 
 
 
@@ -30,7 +30,7 @@ class Login extends Component{
               </View> 
             </View>
             <View>
-                <Link href="/newUser" asChild>
+                <Link href="/home" asChild>
                   <TouchableOpacity style={styles.buttonLogin}>
                     <Text>Entrar</Text>
                   </TouchableOpacity>
