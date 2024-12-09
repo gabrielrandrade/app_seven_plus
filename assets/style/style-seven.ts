@@ -92,8 +92,12 @@ const styles=StyleSheet.create({
     },
     carouselImage:{
         width:'100%',
-        height:300
-    }
+        height:'100%'
+    },
+    containerScroll: {
+        flex: 1,
+        padding: 5,
+    },
 
     
 
