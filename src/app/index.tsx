@@ -20,13 +20,13 @@ class Login extends Component{
             <View style={styles.containerInput}>
               <View>
                 <Text style={styles.textLogin}>Login</Text>
-                <Text style={styles.text}>Email</Text>
+                <Text style={styles.textCadastro}>Email</Text>
                 <TextInput placeholder='Digite seu email' style={styles.inputLogin}  />
               </View>
               <View>
-                  <Text style={styles.text}>Senha</Text>
+                  <Text style={styles.textCadastro}>Senha</Text>
                   <TextInput placeholder='Digite a sua senha' style={styles.inputLogin} />
-                  <Link href={"./emailCheck"}><Text  style={styles.text}>Esqueci a senha</Text></Link>
+                  <Link href={"./emailCheck"}><Text  style={styles.textCadastro}>Esqueci a senha</Text></Link>
               </View> 
             </View>
             <View>

@@ -18,19 +18,19 @@ class NewUser extends Component{
             <View style={styles.containerInput}>
               <View>
                 <Text style={styles.textLogin}>Criar Usuario</Text>
-                <Text style={styles.text}>Email</Text>
+                <Text style={styles.textCadastro}>Email</Text>
                 <TextInput placeholder='Digite seu email' style={styles.inputLogin}  />
               </View>
               <View>
-                  <Text style={styles.text}>Nome</Text>
+                  <Text style={styles.textCadastro}>Nome</Text>
                   <TextInput placeholder='Digite a sua senha' style={styles.inputLogin} />
               </View>
               <View>
-                  <Text style={styles.text}>Senha</Text>
+                  <Text style={styles.textCadastro}>Senha</Text>
                   <TextInput placeholder='Digite a sua senha' style={styles.inputLogin} />
               </View> 
               <View>
-                  <Text style={styles.text}>Cofirmar senha</Text>
+                  <Text style={styles.textCadastro}>Cofirmar senha</Text>
                   <TextInput placeholder='Digite a sua senha' style={styles.inputLogin} />
               </View> 
             </View>

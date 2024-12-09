@@ -37,7 +37,7 @@ const styles=StyleSheet.create({
         textAlign:'center',
         marginTop:30
     },
-    text:{
+    textCadastro:{
         fontSize:15,
         textAlign:'left',
         marginTop:30,
@@ -67,6 +67,34 @@ const styles=StyleSheet.create({
         backgroundColor:'#fff',
 
     },
+//Carousel -----------
+    wrapper: {
+
+    },
+    slide1: {
+  
+      justifyContent: 'center',
+      alignItems: 'center',
+      backgroundColor: '#9DD6EB',
+      height:300
+    },
+    slide2: {
+      justifyContent: 'center',
+      alignItems: 'center',
+      backgroundColor: '#97CAE5',
+      height:300,
+    },
+    slide3: {
+      justifyContent: 'center',
+      alignItems: 'center',
+      backgroundColor: '#92BBD9',
+      height:300
+    },
+    carouselImage:{
+        width:'100%',
+        height:300
+    }
+
     
 
 

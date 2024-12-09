@@ -18,11 +18,11 @@ class RecoveryPassword extends Component{
             <View style={styles.containerInput}>
               <View>
                 <Text style={styles.textLogin}>Recuperação de senha</Text>
-                <Text style={styles.text}>Nova senha</Text>
+                <Text style={styles.textCadastro}>Nova senha</Text>
                 <TextInput placeholder='Digite seu email' style={styles.inputLogin}  />
               </View>
               <View>
-                  <Text style={styles.text}>Confirma nova senha</Text>
+                  <Text style={styles.textCadastro}>Confirma nova senha</Text>
                   <TextInput placeholder='Digite a sua senha' style={styles.inputLogin} />
               </View> 
             </View>

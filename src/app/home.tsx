@@ -1,51 +1,29 @@
+
 import React, { Component } from 'react'
-import { AppRegistry, StyleSheet, Text, View } from 'react-native'
+import { AppRegistry, StyleSheet, Text, View, Image} from 'react-native'
 
 import Swiper from 'react-native-swiper'
+import styles from '../../assets/style/style-seven'
+import { ScrollView } from 'react-native-gesture-handler'
 
-const styles = StyleSheet.create({
-  wrapper: {},
-  slide1: {
-    flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
-    backgroundColor: '#9DD6EB'
-  },
-  slide2: {
-    flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
-    backgroundColor: '#97CAE5'
-  },
-  slide3: {
-    flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
-    backgroundColor: '#92BBD9'
-  },
-  text: {
-    color: '#fff',
-    fontSize: 30,
-    fontWeight: 'bold'
-  }
-})
 
 export default class SwiperComponent extends Component {
   render() {
     return (
-      <Swiper style={styles.wrapper} showsButtons={true}>
+      <Swiper style={styles.wrapper} autoplay={true} showsPagination={false}>
         <View style={styles.slide1}>
-          <Text style={styles.text}>Hello Swiper</Text>
+          <Image style={styles.carouselImage} source={require('../../assets/image/poster1.jpeg')}/>
         </View>
         <View style={styles.slide2}>
-          <Text style={styles.text}>Beautiful</Text>
+        <Image style={styles.carouselImage} source={require('../../assets/image/poster2.jpg')}/>
         </View>
         <View style={styles.slide3}>
-          <Text style={styles.text}>And simple</Text>
+        <Image style={styles.carouselImage} source={require('../../assets/image/poster3.jpg')}/>
         </View>
       </Swiper>
     )
   }
 }
+
 
 AppRegistry.registerComponent('myproject', () => SwiperComponent)

@@ -18,7 +18,7 @@ class EmailCheck extends Component{
             <View style={styles.containerInput}>
               <View>
                 <Text style={styles.textLogin}>Recuperação de senha</Text>
-                <Text style={styles.text}>Confirma o email</Text>
+                <Text style={styles.textCadastro}>Confirma o email</Text>
                 <TextInput placeholder='Digite seu email' style={styles.inputLogin}  />
               </View>
             </View>
